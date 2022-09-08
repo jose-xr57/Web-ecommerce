@@ -1,0 +1,89 @@
+
+
+@media (min-width: 426px){
+   
+    .header__logo{
+        font-size: 32px;
+        padding-left: 16px;
+        /* padding-bottom: 18px; */
+        color: #f85555;
+    }
+
+    /* header */
+    .header{
+        display: flex;
+        /* border: 1px solid; */
+        justify-content: space-between;
+        /* border: 1px solid #ccc; */
+        border-bottom: 1px solid #ccc;
+        box-shadow: 0px 0px 7px 0px rgb(237 237 237);
+        height: 60px;
+        align-items: center;
+    } 
+
+    
+    /* Border de la navegación */
+    .header__nav{
+        /* border: 1px dashed black; */
+        width: 60%;
+        height: 100%;
+    }
+    /* Listar mi nav horizontalmente y quitar los * */
+    .header__list{
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+
+    /* Tamaño de los item */
+    .header__item{
+        /* border: 1px solid; */
+        height: 100%;
+        width: 25%;
+        text-align: center;
+        box-shadow: 0px 0px 7px 0px rgb(237 237 237);
+        cursor: pointer;
+        /* border: 1px solid #ccc; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    /* .header__item:nth-child(3):active{
+        opaci
+    } */
+    /* quitar las lineas de enlaces */
+    .header a{
+
+        text-decoration: none;
+
+        height: 100%;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        /* ----------------------------------------  */
+         
+}
+ 
+.active{
+    color: blueviolet;
+    background-color: rgb(239 239 239);
+    transition: 1s;
+    position: relative;
+    left: 2px;
+    transform: scale(1.05);
+}
+
+
+/* .header__nav div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 3s;
+} */
+ 
